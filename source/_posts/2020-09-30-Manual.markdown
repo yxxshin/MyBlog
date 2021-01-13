@@ -3,7 +3,7 @@ layout: post
 title:  "How to write Posts(MarkDown)"
 description: Examples of MarkDown
 date:   2020-09-30 15:00:00 +0900
-categories: [ Others ]
+categories: [ Manual ]
 tags: [ manual ]
 ---
 ### 위치 찾기
