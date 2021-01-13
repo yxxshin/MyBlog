@@ -228,9 +228,9 @@ widgets:
         # Author's current location
         location: Seoul National University
         # URL or path to the avatar image
-        avatar: 
+        avatar: https://imgur.com/Ue2eCBv.png
         # Whether show the rounded avatar image
-        avatar_rounded: true
+        avatar_rounded: false
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
