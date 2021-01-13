@@ -8,16 +8,24 @@ date: 2021-01-14 04:41:29
 **Born**
 &nbsp; &nbsp; &nbsp; &nbsp; 2000.02.09.
 
+
 **Univ** 
 &nbsp; &nbsp; &nbsp; &nbsp; Seoul National University,
 &nbsp; &nbsp; &nbsp; &nbsp; Dept. of Electrical and Computer Engineering
 
+
 **Location** 
 &nbsp; &nbsp; &nbsp; &nbsp; Seoul, South Korea
+
 
 **Email**
 &nbsp; &nbsp; &nbsp; &nbsp; samshin3910@gmail.com
 &nbsp; &nbsp; &nbsp; &nbsp; samshin3910@snu.ac.kr
+
+
+**My Skills**
+- 
+
 
 **My Careers**
 - `2020.12.26. ~ `

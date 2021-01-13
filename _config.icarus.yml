@@ -49,7 +49,7 @@ head:
         url: 
         # Page cover (og:image) (optional)
         # You should leave this blank for most of the time
-        image: 
+        image: https://imgur.com/D3VusVA.png
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
         site_name: 
