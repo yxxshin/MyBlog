@@ -107,9 +107,13 @@ navbar:
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
-        Download on GitHub:
+        Instagram:
+            icon: fab fa-instagram
+            url: 'https://www.instagram.com/yxxshin0209/'
+        GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/yxxshin'
+
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -120,9 +124,9 @@ footer:
         Attribution 4.0 International:
             icon: fab fa-creative-commons-by
             url: 'https://creativecommons.org/licenses/by/4.0/'
-        Download on GitHub:
+        GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/yxxshin'
 # Article related configurations
 article:
     # Code highlight settings
@@ -218,36 +222,31 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Yeonsang Shin
         # Author title
-        author_title: Your title
+        author_title: Student Developer
         # Author's current location
-        location: Your location
+        location: Seoul National University
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/yxxshin'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: 'https://github.com/ppoffice'
             Facebook:
                 icon: fab fa-facebook
-                url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+                url: 'https://www.facebook.com/shinyeonsang'
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/yxxshin'
+            Instagram:
+                icon: fab fa-instagram
+                url: 'https://www.instagram.com/yxxshin0209/'
+            
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -259,15 +258,6 @@ widgets:
         collapsed: true
         # Maximum level of headings to show (1-6)
         depth: 3
-    # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -288,24 +278,33 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: tags
+    # Recommendation links widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: links
+        # Names and URLs of the sites
+        links:
+            Baekjoon: 'https://www.acmicpc.net/'
+            Google Drive: 'https://drive.google.com/drive/my-drive'
     # Google FeedBurner email subscription widget configurations
-    -
+    #-
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
+    #    position: left
+    #    type: subscribe_email
         # Hint text under the email input
-        description: 
+    #    description: 
         # Feedburner ID
-        feedburner_id: ''
+    #    feedburner_id: ''
     # Google AdSense unit configurations
-    -
+    #-
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
+    #    position: left
+    #    type: adsense
         # AdSense client ID
-        client_id: ''
+    #    client_id: ''
         # AdSense AD unit ID
-        slot_id: ''
+    #    slot_id: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
