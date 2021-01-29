@@ -42,7 +42,7 @@ Server Developer of **Pause**
 [Github Link](https://github.com/SOPT27-PAUSE/PAUSE_server)
 
 
-- `2020.09.26. ~ `
+- `2020.09.26. ~ 2021.01.30.`
 Server Part of **SOPT 27th**
 [Github Link](https://github.com/ON-SOPT-SERVER-3/Yeonsang)
 
