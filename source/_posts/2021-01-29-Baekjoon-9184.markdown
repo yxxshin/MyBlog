@@ -6,7 +6,7 @@ categories: [ Baekjoon ]
 tags: [ dp ]
 ---
 
-[문제보기][https://www.acmicpc.net/problem/9184]
+[문제보기](https://www.acmicpc.net/problem/9184)
 <!-- more -->
 
 ```c++
