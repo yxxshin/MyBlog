@@ -5,6 +5,7 @@ description: Commit Message, Hexo 명령어, 추가 사항들
 date:   2021-01-14 15:00:00 +0900
 categories: [ Manual ]
 tags: [ manual ]
+toc: true
 ---
 
 ## Commit Message Type

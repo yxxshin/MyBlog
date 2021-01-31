@@ -6,10 +6,12 @@ date:   2020-11-21 20:00:00 +0900
 categories: [ Seminar ]
 tags: [ server ]
 cover: https://imgur.com/ASR8bUv.png
+toc: true
 ---
 
-### 1. JWT
-> ### <u>인증(Authentication)</u>
+> ### JWT
+
+#### <u>인증(Authentication)</u>
 
 API 요청에 대해 사용 가능한 사용자인지 확인하는 절차!  
 즉, 클라이언트가 주장하는 사용자와 같은 사용자인지를 확인하는 절차이다.
@@ -17,7 +19,7 @@ API 요청에 대해 사용 가능한 사용자인지 확인하는 절차!
 
 <br>
 
-> ### <u>HTTP의 특징</u>
+#### <u>HTTP의 특징</u>
 
 HTTP는 다음의 특징들을 가진다.
 
@@ -41,7 +43,7 @@ HTTP에서 클라이언트의 상태를 PC에 저장한 후 필요 시 사용한
 
 <br>
 
-> ### <u>JWT란?</u>
+#### <u>JWT란?</u>
 
 JWT는 **`Header.Payload.Verify_Signature`** 으로 구성된다.  
 - Header: 서명에 사용된 알고리즘의 정보 - JWT 토큰 유형, 해시 알고리즘 등
@@ -55,7 +57,7 @@ JWT는 다음의 특징들을 가진다.
 
 <br>
 
-> ### <u>JWT의 작동법</u>
+#### <u>JWT의 작동법</u>
 
 다음과 같은 방법으로 작동한다.  
 1. 클라이언트가 유저에 대한 정보 (email, pw 등)를 서버에게 보냄.
@@ -106,7 +108,7 @@ next();
 const { id } = req.decoded;
 ```
 
-> ### <u>JWT의 장단점</u>
+#### <u>JWT의 장단점</u>
 
 **장점**  
 - 별도의 인증 저장소 필요없음 
@@ -124,8 +126,9 @@ const { id } = req.decoded;
 
 <br>
 
-### 2. REST API
-> ### <u>URI와 URL</u>
+> ### 2. REST API
+
+#### <u>URI와 URL</u>
 
 **URI(Uniform Resource Identifier, 통합 자원 식별자)**  
 인터넷에 있는 자원을 나타내는 유일한 주소
@@ -138,7 +141,7 @@ ex) `https://site.com/post?id=123` : URI 이지만, URL은 아니다
 
 <br>
 
-> ### <u>REST API란?</u>
+#### <u>REST API란?</u>
 
 REST 아키텍처의 제약 조건을 준수하는 애플리케이션 프로그래밍 인터페이스  
 (**RE**presentatinal **S**tate **T**ransfer API)
@@ -166,7 +169,7 @@ REST 서버 - API 제공 / 클라 - 사용자 인증, 컨텍스트 직접 관리
 
 <br>
 
-> ### <u>REST API 디자인 가이드</u>(핵심)
+#### <u>REST API 디자인 가이드</u>(핵심)
 
 **1. URI는 정보의 자원을 표현해야 함**  
 리소스 명은 동사보다는 명사를 사용한다  
@@ -177,7 +180,7 @@ ex) `POST /members/1`, `DELETE /members/1`
 
 <br>
 
-> ### <u>REST API 주의사항</u>
+#### <u>REST API 주의사항</u>
 
 1. 슬래시 구분자(/)는 계층 관계를 나타내는데 사용  
 ex) `http://site.com/animal/mammals/whales`  
@@ -206,7 +209,7 @@ Document은 한 객체를 의미하며, Collection은 객체들의 집합
 
 <br>
 
-### 3. API 명세서
+> ### 3. API 명세서
 
 **API (Application Programming Interface) 란?**  
 서버 애플리케이션의 기능을 사용하기 위한 방법/수단!  

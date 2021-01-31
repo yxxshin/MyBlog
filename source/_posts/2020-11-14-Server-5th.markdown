@@ -6,12 +6,14 @@ date:   2020-11-14 20:00:00 +0900
 categories: [ Seminar ]
 tags: [ server ]
 cover: https://imgur.com/foI9oNQ.png
+toc: true
 ---
 
-### 0. 5주차 세미나 사전준비
+> ### 5주차 세미나 사전준비
+
 1. AWS S3 세팅
 
-### 1. 프로젝트 계층 분리
+> ### 프로젝트 계층 분리
 
 - **Router** : 특정 엔드포인트에 대한 클라의 요청에 앱이 응답하는 방법을 결정
 - **Controller** : 요청을 받고 Service 계층에서 받은 데이터를 응답
@@ -24,7 +26,7 @@ Router 에서 Controller - Express에 적용:
 1. 각각을 하나의 폴더로 만들기 (controller 폴더와 service 폴더 생성)
 2. 기존 세미나의 `routes/users/index.js`의 내용을 `controller/userController.js`로 옮긴다!  
     예시:  
-    ```javascript
+    ```javascript controller/userController.js
     /* util, responseMessage, statusCode, User 등 필요한 것들 상대경로로 가져오기 */
 
     module.exports = {
@@ -37,7 +39,7 @@ Router 에서 Controller - Express에 적용:
     }
     ```
 3. `routes/users/index.js` 에는 다음과 같이 받아준다.
-    ```javascript
+    ```javascript routes/users/index.js
     const userController = require('../../controller/userController');
 
     router.post('/signup', userController.signup);
@@ -49,7 +51,7 @@ Router 에서 Controller - Express에 적용:
 
 <br>
 
-### 2. Workbench 사용법
+> ### Workbench 사용법
 
 - 테이블 설정에서, 테이블 속성 / 제약 조건들 설정하기
 - 테이블 설정 하단의 Foreign Keys 를 통해 외래키 설정 가능  
@@ -64,8 +66,9 @@ cf. On Update / On Delete 부분 추가설명
 
 <br>
 
-### 3. Sequelize Associations  
-> ### <u>Association</u>
+> ### Sequelize Associations  
+
+#### <u>Association</u>
 
 Sequelize에서 관계를 정의할 때 지원하는 sequelize model의 sub class  
 `hasOne, belongsTo, belongsToMany, hasMany` 가 있다.  
@@ -73,7 +76,7 @@ Sequelize에서 관계를 정의할 때 지원하는 sequelize model의 sub clas
 
 <br>
 
-> ### <u>1 : 1</u>
+#### <u>1 : 1</u>
 
 ![1:1](https://imgur.com/2CnjHAE.png)
 예시:  
@@ -90,7 +93,7 @@ db.Profile.belongsTo(db.User);
 
 <br>
 
-> ### <u>1 : M</u>
+#### <u>1 : M</u>
 
 ![1:M](https://imgur.com/PJfwqPN.png)
 
@@ -109,7 +112,7 @@ db.Post.belongsTo(db.User);
 
 <br>
 
-> ### <u>M : N</u>
+#### <u>M : N</u>
 
 ![M:N](https://imgur.com/gNo1lqT.png)
 
@@ -161,7 +164,7 @@ db.Post.belongsToMany(db.User, { through: 'Like', as: 'Liker' });
 
 <br>
 
-> ### <u>JOIN</u>
+#### <u>JOIN</u>
 
 **JOIN**이란, 테이블간 공통된 컬럼(조건)으로 테이블을 합쳐 표현하는 것이다  
 (이 글에서의 예시: User Model의 id 값으로 Post Model의 UserId 외래키를 연관지어 테이블을 합친다)  
@@ -187,10 +190,10 @@ const post = await Post.findAll( {
 
 <br>
 
-> ### <u>실습</u>
+#### <u>실습</u>
 
 - `postController.js`에서 사용한 쿼리 예시이다
-```javascript
+```javascript postController.js
 // 1. user를 Read하는 쿼리
 const user = await User.findOne({ where: { id: userId }});
 // 2. post를 Create하는 쿼리
@@ -201,8 +204,9 @@ await user.addPost(post);
 
 <br>
 
-### 4. S3 + Multer
-> ### <u>Multer</u>
+> ### S3 + Multer
+
+#### <u>Multer</u>
 
 NodeJS에서 파일 업로드를 위해 사용되는 **multipart/form-data**를 다루기 위한 NodeJS **Middleware**  
 - `npm install multer`로 설치할 수 있다
@@ -225,7 +229,7 @@ router.post('/single', upload.single('image'), async (req, res) => {
 
 <br>
 
-> ### <u>AWS S3</u>
+#### <u>AWS S3</u>
 
 **S3**(Simple Storage Service): AWS에서 제공하는 클라우드 스토리지 서비스  
 - 프리티어 기준 용량 5GB, 월 당 업로드(PUT) 5000, 다운로드(GET) 20000회 가능

@@ -6,10 +6,12 @@ date:   2020-10-17 20:00:00 +0900
 categories: [ Seminar ]
 tags: [ server ]
 cover: https://imgur.com/wEGgufD.png
+toc: true
 ---
 
-### 1. NodeJS
-> ### <u>NodeJS란?</u>
+> ### NodeJS
+
+#### <u>NodeJS란?</u>
 
 NodeJS는 <u>서버도 아니고, 프레임워크도 아니고, 프로그래밍 언어도 아니다</u>  
 프로그래밍 언어로 JavaScript를 사용하고,  
@@ -17,9 +19,9 @@ Web Browser가 JavaScript를 해석한다.
 NodeJS는 크롬 V8 엔진으로 빌드된 **JavaScript**를 실행할 수 있는 **런타임 환경**이다.
 <!-- more -->
 
-> ### <u>NodeJS의 특징</u>
+#### <u>NodeJS의 특징</u>
 
-**<span style="color:blue">Non-blocking I/O</span>**  
+##### **<span style="color:blue">Non-blocking I/O</span>**  
 
 ![Non-blocking](https://imgur.com/gTiLOvh.jpg)  
 - Blocking  
@@ -32,7 +34,7 @@ NodeJS는 크롬 V8 엔진으로 빌드된 **JavaScript**를 실행할 수 있�
     결과론적으로 다음과 같이 작업이 이루어진다.
     ![easy](https://imgur.com/RZi1KUJ.jpg)
 
-**<span style="color:blue">Single Thread</span>**
+##### **<span style="color:blue">Single Thread</span>**
 
 - **프로세스**  
 운영 체제에서 할당하는 작업의 단위  
@@ -48,7 +50,7 @@ Q. Single Thread보다 Multi Thread가 더 좋지 않나요?
 A. 쓰레드를 카페의 바리스타로 비유한 다음 예시로 확인하자.  
 ![Barista](https://imgur.com/eYbhX2y.jpg)
 
-**<span style="color:blue">Event Driven</span>**
+##### **<span style="color:blue">Event Driven</span>**
    
 이벤트가 발생할 때 미리 지정해 놓은 작업을 수행  
 Node는 이벤트 리스너(Event Listener)에 콜백 함수를 지정해서 동작한다. <center><img src="https://imgur.com/ljqZiB9.jpg" width="400"></center>
@@ -65,23 +67,25 @@ JavaScript 엔진은 **Memory Heap, CallStack** 의 두 가지 주요 구성 요
 
 <br>
 
-- **Asynchronous CallBack (비동기 콜백)**
+##### **<span style="color:blue">Asynchronous CallBack (비동기 콜백)</span>**
 ![콜백](https://imgur.com/MZSswLC.jpg)
-    - **콜백 큐(Callback Queue)**  
-    이벤트가 발생하면 백그라운드에서 콜백으로 콜백 함수들을 보냄  
-    이벤트루프가 콜스택에 콜백 함수들을 전달  
-    콜백 큐의 콜백 함수들은 콜 스택이 비워지기를 기다림
-    - **이벤트 루프(Event Loop)**  
-    콜백 큐의 콜백함수들을 콜 스택에 전달  
-    단, <u>콜 스택이 비어있을 때만</u> 전달
-    - **백그라운드(BackGround)**  
-    타이머나 이벤트 리스너들이 대기하는 곳  
-    여러 작업 동시에 실행 가능
+
+- **콜백 큐(Callback Queue)**  
+  - 이벤트가 발생하면 백그라운드에서 콜백으로 콜백 함수들을 보냄  
+  - 이벤트루프가 콜스택에 콜백 함수들을 전달  
+  - 콜백 큐의 콜백 함수들은 콜 스택이 비워지기를 기다림
+- **이벤트 루프(Event Loop)**  
+  - 콜백 큐의 콜백함수들을 콜 스택에 전달  
+  - 단, <u>콜 스택이 비어있을 때만</u> 전달
+- **백그라운드(BackGround)**  
+  - 타이머나 이벤트 리스너들이 대기하는 곳  
+  - 여러 작업 동시에 실행 가능
 
 <br>
 
-### 2. 비동기 흐름 제어
-> ### <u>Blocking ↔ Non-Blocking, Sync ↔ Async 구분하기</u> 
+> ### 비동기 흐름 제어
+
+#### <u>Blocking ↔ Non-Blocking, Sync ↔ Async 구분하기</u> 
 
 - **Blocking ↔ Non-Blocking : 호출되는 함수가 바로 리턴하느냐 마느냐**  
 Blocking: 바로 리턴 X  
@@ -92,16 +96,16 @@ Async: 호출되는 함수가 신경 씀
 
 JavaScript는 기본적으로 **동기적(Synchronous)** 으로 실행된다.  
 하지만 Node는 대부분 **비동기적(Asynchronous)** 으로 작동한다.  
-그럼, 다음의 문제 상황에 직면한다.  
+그럼, 다음의 문제 상황에 직면한다. 
 
-> ### <u>JavaScript에서 비동기적으로 실행하고 싶은 코드가 있다면..?</u>
+<br> 
 
-**<span style="color:blue">Callback Function</span>**  
+#### <u>JavaScript에서 비동기적으로 실행하고 싶은 코드가 있다면..?</u>
+
+##### **<span style="color:blue">Callback Function</span>**  
 콜백함수란?  
     1. 다른 함수의 인자로써 이용되는 함수  
     2. 어떤 이벤트에 의해 호출되어지는 함수 
-
-<br>
 
 예시)  
 ```javascript
@@ -113,7 +117,6 @@ fun(5, 10, function(res1, res2) {
     console.log(res2);
 });
 ```
-
 쉽게 말해, <u>이벤트가 끝나면 다시 전화를 준다!</u>  
 이걸 이용해서 어떻게 비동기 처리를 해결할 수 있을까?  
 다음의 예시를 살펴보자.  
@@ -170,7 +173,7 @@ first(function() {
 (콜백함수가 서로 물리고 물려, 가독성 떨어지고 로직 바꾸기도 어렵다)  
 따라서, 아래의 방법들을 주로 이용한다.
 
-**<span style="color:blue">Promise</span>**
+##### **<span style="color:blue">Promise</span>**
 
 Promise는 다음의 3가지 상태를 가진다.
 - <u>Pending</u> : 최초로 생성, 비동기 작업 수행중..
@@ -209,11 +212,9 @@ Promise는 다음의 3가지 상태를 가진다.
     ```
     cf) 여러 개의 promise를 `.then()`을 연달아 사용할 수 있다 (Promise Chaining)  
 
-**<span style="color:blue">Async</span>**  
+##### **<span style="color:blue">Async</span>**  
 
 함수 앞에 `async` 키워드를 붙혀주면, **암묵적으로 promise를 반환** 한다.  
-
-<br>
 
 예시) 다음의 두 함수는 정확히 같은 역할을 한다.  
 ```javascript
@@ -229,7 +230,6 @@ data.then( (value) => {
     console.log(value);
 });
 ```
-
 ```javascript
 async function getData() {
     const data = 'data';    // 오래 걸림
@@ -258,8 +258,9 @@ async function main() {
 main();
 ```
 
-### 3. Module
-> ### <u>모듈이란?</u>
+> ### Module
+
+#### <u>모듈이란?</u>
 
 코드를 **여러 개의 파일로 분리**하는 방법!  
 - **Exports**를 사용하여 분리하는 예시  
@@ -282,7 +283,7 @@ animalModule.animal.bark();
 
 <br>
 
-> ### <u>File System Module</u>
+#### <u>File System Module</u>
 
 파일 시스템에 접근하는 내장 모듈로, **파일 생성, 삭제, 읽기, 쓰기, 폴더 생성 및 삭제** 가능  
 
@@ -304,7 +305,7 @@ fs.readFile('filename.txt', (err, data) => {
 
 <br>
 
-> ### <u>Crypto</u>  
+#### <u>Crypto</u>  
 
 다양한 방식의 암호화를 도와주는 모듈  
 **단방향 암호화 방식**으로, 복호화 할 수 없다 (주로 해시 기법)
@@ -320,7 +321,9 @@ const fin = crypto.createHash('sha512').update(password).digest('base64');
 - `digest(encoding)`  
 인코딩할 알고리즘을 넣어줌. `base64`가 결과가 짧아 많이 이용함
 
-> ### <u>PBKDF2 (Password-Based Key Derivation Function)</u>  
+<br>
+
+#### <u>PBKDF2 (Password-Based Key Derivation Function)</u>  
 가장 많이 사용되는 Key Derivation Function으로, salt를 적용한 후 반복 횟수를 임의로 선택한다.  
 ![pbkdf2](https://imgur.com/8BGUJ5E.jpg)
 `crypto.pbkdf2`는 다음과 같은 형태로 사용한다.

@@ -6,14 +6,17 @@ date:   2020-11-07 20:00:00 +0900
 categories: [ Seminar ]
 tags: [ server ]
 cover: https://imgur.com/WIo0Ksr.png
+toc: true
 ---
 
-### 0. 4주차 세미나 사전준비
+> ### 4주차 세미나 사전준비
+
 1. RDS 세팅
 2. MySQL workbench 설치
 
-### 1. Database
-> ### <u>데이터 베이스</u>
+> ### Database
+
+#### <u>데이터베이스</u>
 
 서버는 데이터베이스에 접근하여 데이터들을 Read/Write 한다.  
 <!-- more -->
@@ -26,7 +29,7 @@ cover: https://imgur.com/WIo0Ksr.png
 
 <br>
 
-> ### <u>데이터 베이스 용어 정리</u>
+#### <u>데이터 베이스 용어 정리</u>
 
 **Primary Key**(기본키) : 다른 데이터와 구별할 수 있는 식별자
 - 한 테이블에는 하나 혹은 그 이상의 primary key가 있어야 함
@@ -41,8 +44,7 @@ cover: https://imgur.com/WIo0Ksr.png
 
 <br>
 
-
-> ### <u>Relation 관계</u>
+#### <u>Relation 관계</u>
 
 **1 : 1 관계**  
 말 그대로 1:1로 매핑되는 관계 (예: 이름 - 주민번호)
@@ -57,7 +59,7 @@ cover: https://imgur.com/WIo0Ksr.png
 
 <br>
 
-> ### <u>정규화</u>
+#### <u>정규화</u>
 
 관계형 데이터 베이스를 논리적이고 직관적으로 만드는 과정
 
@@ -93,15 +95,16 @@ cover: https://imgur.com/WIo0Ksr.png
 
 <br>
 
-### 2. Sequelize ORM (Object Relational Mapping)
-> ### <u>Sequelize ORM이란?</u>
+> ### Sequelize ORM (Object Relational Mapping)
+
+#### <u>Sequelize ORM이란?</u>
 
 NodeJS에서 JS의 객체와 DB의 관계를 매핑해주는 라이브러리!  
 SQL을 사용하지 않고 JS로 DB에 접근한다  
 
 <br>
 
-> ### <u>Sequelize Project</u>
+#### <u>Sequelize Project</u>
 
 처음: `npm install sequelize-cli sequelize mysql2`로 모듈 3개 깔아주고, `sequelize init` 해주면 sequelize project가 생성된다.  
 - `config/config.json` : DB의 정보를 담는 공간
@@ -131,7 +134,7 @@ sequelize.sync({ alter: false })
 
 <br>
 
-> ### <u>Sequelize로 Model 정의하기  </u>
+#### <u>Sequelize로 Model 정의하기  </u>
 
 기본적으로는 다음과 같이 `sequelize.define()`를 이용하여 정의한다.
 ```javascript
@@ -182,7 +185,7 @@ db.User = require('./user')(sequelize, Sequelize);
 module.exports = db;
 ```
 
-> ### <u>Sequelize Query</u>
+#### <u>Sequelize Query</u>
 
 Sequelize 쿼리를 이용하여 CRUD 작업을 해보자!
 ![crud](https://imgur.com/9hfq1hz.png)
@@ -221,7 +224,7 @@ Sequelize 쿼리를 이용하여 CRUD 작업을 해보자!
     });
     ```
 
-- findAll
+- **findAll**
     - SQL  
     `select * from users;`   
     `select name, address from users where address = '강남구';`  
@@ -249,7 +252,7 @@ Sequelize 쿼리를 이용하여 CRUD 작업을 해보자!
     });
     ```
 
-- Update
+- **Update**
     - SQL  
     `update users set name = '바뀔이름' where id = 2;`
 
@@ -264,7 +267,7 @@ Sequelize 쿼리를 이용하여 CRUD 작업을 해보자!
     });
     ```
 
-- Destroy
+- **Destroy**
     - SQL  
     `delete from users where id = 2;`
 
