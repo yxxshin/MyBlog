@@ -40,7 +40,7 @@ toc: true
 
 - <mark>Read More</mark> 버튼 생성: md 파일 중간에 `<!-- more -->` 적기
 - cover와 thumbnail: md 파일 상단에 `cover: Pic URL`, `thumbnail: Pic URL` 로 적으면 된다
-- md 파일 상단에 `toc: true`를 추가해 주면, markdown의 H1 ~ H6 에 맞게 CATALOGUE를 자동으로 생성해 준다!
+- md 파일 상단에 `toc: true`를 추가해 주면, markdown의 H1 ~ H6 에 맞게 <mark>CATALOGUE</mark>를 자동으로 생성해 준다!
 
 ## Hexo Tag Plugins
 
