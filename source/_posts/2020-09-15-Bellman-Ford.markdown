@@ -3,7 +3,7 @@ layout: post
 title: "Bellman-Ford Algorithm"
 description: "최단 경로 알고리즘 - 벨만 포드 알고리즘"
 date:   2020-09-15 15:00:00 +0900
-categories: [ Algorithm ]
+categories: [ Algorithm, Theory ]
 tags: [ ssp ]
 use_math: true
 ---

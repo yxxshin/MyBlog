@@ -3,7 +3,7 @@ layout: post
 title:  "[ON SOPT] Server 4th Seminar"
 description: DataBase, Sequelize ORM
 date:   2020-11-07 20:00:00 +0900
-categories: [ Seminar ]
+categories: [ Seminar, ON SOPT Server ]
 tags: [ server ]
 cover: https://imgur.com/WIo0Ksr.png
 toc: true

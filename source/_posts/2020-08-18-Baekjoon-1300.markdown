@@ -2,8 +2,10 @@
 layout: post
 title: "Baekjoon 1300 (K번째 수)"
 date:   2020-08-18 21:30:00 +0900
-categories: [ Baekjoon ]
+categories: [ Algorithm, Baekjoon ]
 tags: [ binary_search ]
+cover: /images/Baekjoon_Cover.png
+thumbnail: /images/Baekjoon_Thumbnail.jpg
 ---
 
 [문제보기][prob]

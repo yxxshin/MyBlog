@@ -3,7 +3,7 @@ layout: post
 title: "Binary Search, Paramametric Search"
 description: "이분탐색 (Binary Search)과 파라매트릭 서치(Parametric Search)"
 date:   2020-08-12 16:00:00 +0900
-categories: [ Algorithm ]
+categories: [ Algorithm, Theory ]
 tags: [ binary_search ]
 use_math: true
 ---

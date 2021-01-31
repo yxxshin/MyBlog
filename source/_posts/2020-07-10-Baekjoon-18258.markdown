@@ -2,8 +2,10 @@
 layout: post
 title: "Baekjoon 18258 (큐 2)"
 date:   2020-07-10 15:30:00 +0900
-categories: [ Baekjoon ]
+categories: [ Algorithm, Baekjoon ]
 tags: [ queue ]
+cover: /images/Baekjoon_Cover.png
+thumbnail: /images/Baekjoon_Thumbnail.jpg
 ---
 
 [문제보기][prob]

@@ -3,7 +3,7 @@ layout: post
 title: "DFS와 BFS"
 description: 그래프 탐색 알고리즘
 date:   2020-03-20 15:00:00 +0900
-categories: [ Algorithm ]
+categories: [ Algorithm, Theory ]
 tags: [ dfs&bfs ]
 ---
 DFS(Depth-First Search, 깊이 우선 탐색)과 BFS(Breadth-First Search, 너비 우선 탐색)은 그래프 탐색 시 사용되는 알고리즘이다.

@@ -3,7 +3,7 @@ layout: post
 title: "Sorting Algorithm - O(N^2)"
 description: 가장 간단한 정렬 알고리즘
 date:   2020-03-06 15:00:00 +0900
-categories: [ Algorithm ]
+categories: [ Algorithm, Theory ]
 tags: [ sorting ]
 ---
 

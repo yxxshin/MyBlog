@@ -3,7 +3,7 @@ layout: post
 title: "Floyd-Warshall Algorithm"
 description: "최단 경로 알고리즘 - 플로이드 워셜 알고리즘"
 date:   2020-09-20 15:00:00 +0900
-categories: [ Algorithm ]
+categories: [ Algorithm, Theory ]
 tags: [ asp ]
 use_math: true
 ---

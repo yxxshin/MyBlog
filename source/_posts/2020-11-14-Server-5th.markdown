@@ -3,7 +3,7 @@ layout: post
 title:  "[ON SOPT] Server 5th Seminar"
 description: 프로젝트 계층 분리, Sequelize ORM, S3 + Multer
 date:   2020-11-14 20:00:00 +0900
-categories: [ Seminar ]
+categories: [ Seminar, ON SOPT Server ]
 tags: [ server ]
 cover: https://imgur.com/foI9oNQ.png
 toc: true

@@ -3,7 +3,7 @@ layout: post
 title: "Dynamic Programming - LCS problem"
 description: Dynamic Programming을 이용한 LCS problem
 date:   2020-04-11 18:00:00 +0900
-categories: [ Algorithm ]
+categories: [ Algorithm, Theory ]
 tags: [ dp ]
 ---
 

@@ -2,8 +2,10 @@
 layout: post
 title: "Baekjoon 2110 (공유기 설치)"
 date:   2020-08-18 18:30:00 +0900
-categories: [ Baekjoon ]
+categories: [ Algorithm, Baekjoon ]
 tags: [ binary_search ]
+cover: /images/Baekjoon_Cover.png
+thumbnail: /images/Baekjoon_Thumbnail.jpg
 ---
 
 [문제보기][prob]

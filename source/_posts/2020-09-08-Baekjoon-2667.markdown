@@ -2,8 +2,10 @@
 layout: post
 title: "Baekjoon 2667 (단자번호 붙이기)"
 date:   2020-09-08 19:30:00 +0900
-categories: [ Baekjoon ]
+categories: [ Algorithm, Baekjoon ]
 tags: [ dfs&bfs ]
+cover: /images/Baekjoon_Cover.png
+thumbnail: /images/Baekjoon_Thumbnail.jpg
 ---
 
 [문제보기][prob]

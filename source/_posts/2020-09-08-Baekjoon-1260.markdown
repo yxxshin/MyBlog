@@ -2,8 +2,10 @@
 layout: post
 title: "Baekjoon 1260 (DFS와 BFS)"
 date:   2020-09-08 17:30:00 +0900
-categories: [ Baekjoon ]
+categories: [ Algorithm, Baekjoon ]
 tags: [ dfs&bfs ]
+cover: /images/Baekjoon_Cover.png
+thumbnail: /images/Baekjoon_Thumbnail.jpg
 ---
 
 [문제보기][prob]

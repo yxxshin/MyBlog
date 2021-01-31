@@ -2,8 +2,10 @@
 layout: post
 title: "Baekjoon 6549 (히스토그램에서 가장 큰 직사각형)"
 date:   2020-08-04 15:30:00 +0900
-categories: [ Baekjoon ]
+categories: [ Algorithm, Baekjoon ]
 tags: [ stack ]
+cover: /images/Baekjoon_Cover.png
+thumbnail: /images/Baekjoon_Thumbnail.jpg
 ---
 
 [문제보기][prob]
