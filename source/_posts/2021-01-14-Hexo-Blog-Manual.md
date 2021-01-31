@@ -23,6 +23,10 @@ toc: true
 - `hexo server` : 서버 실행 (http://localhost:4000)
 - `hexo new page about` : `/source/about` 폴더에 `index.md` 파일이 생긴다. <mark>페이지 생성</mark> 
 - `hexo new post 포스트명` : `/source/_posts` 폴더에 md 파일이 생긴다.  <mark>게시물 작성</mark> 
+- `hexo new draft 포스트명` : `/source/_drafts` 폴더에 md 파일이 생긴다. <mark>초안 작성</mark>
+  - `/source/_drafts` 폴더의 md들은 서버 배포해도 블로그에 표시되지 않는다.
+  - 포스팅이 끝나면 직접 `_posts` 로 옮겨주거나 `hexo publish [layout] [파일명]` 으로 옮겨줄 수 있다. (layout 생략하면 기본적으로 post)
+  - 로컬에서 draft를 테스트하고 싶다면 `hexo server --draft` 를 이용한다.
 - `hexo generate` : <mark>정적 리소스 생성</mark> 
 - `hexo deploy` : <mark>서버 배포</mark> 
 - `hexo deploy --generate` 로 위의 두 과정을 동시에 할 수 있음
