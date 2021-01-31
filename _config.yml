@@ -106,3 +106,4 @@ deploy:
   type: git
   repo: https://github.com/yxxshin/yxxshin.github.io.git
   branch: main
+
