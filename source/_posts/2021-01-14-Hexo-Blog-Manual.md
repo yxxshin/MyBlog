@@ -36,3 +36,67 @@ toc: true
 
 - <mark>Read More</mark> 버튼 생성: md 파일 중간에 `<!-- more -->` 적기
 - cover와 thumbnail: md 파일 상단에 `cover: Pic URL`, `thumbnail: Pic URL` 로 적으면 된다
+- md 파일 상단에 `toc: true`를 추가해 주면, markdown의 H1 ~ H6 에 맞게 CATALOGUE를 자동으로 생성해 준다!
+
+## Hexo Tag Plugins
+
+### Block Quote
+- 인자가 없는 일반 인용
+```
+{% blockquote %}
+This is a quote
+{% endblockquote %}
+```
+{% blockquote %}
+This is a quote
+{% endblockquote %}
+
+- 책 인용
+```
+{% blockquote [Author], [BookName] %}
+This is a book quote
+{% endblockquote %}
+```
+{% blockquote Author, BookName %}
+This is a book quote
+{% endblockquote %}
+
+- 사이트 인용
+```
+{% blockquote [Author] [URL] [SiteName] %}
+This is a site quote
+{% endblockquote %}
+```
+
+{% blockquote Author https://google.com SiteName %}
+This is a site quote
+{% endblockquote %}
+
+### Code Block
+```
+{% codeblock [title] [lang:language] [url] [link text] [options] %}
+codes
+{% endcodeblock %}
+```
+Option들은 [여기](https://hexo.io/ko/docs/tag-plugins.html#Code-Block) 에서 참고
+
+### Backtick Code Block
+위의 Code Block과 마찬가지로, language 뒤에 title, url, link text 를 추가할 수 있다!
+
+### Youtube
+- 비디오 추가
+```
+{% youtube [VideoId] %}
+```
+
+- 플레이리스트 추가
+```
+{% youtube [PlaylistId] 'playlist' %}
+```
+
+
+### Include Posts
+```
+{% post_link [post title] '[custom text]'%}
+```
+
