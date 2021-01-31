@@ -18,8 +18,6 @@ mathjax: true
 $$T(n) \, = \, O(1) \qquad \qquad \qquad \quad if \; n \, = \, 1$$  
 $$\qquad \; \, = \, a \, T(n/b) \, + \, f(n) \qquad otherwise$$
 
-$$( a^2 )$$
-
 조건: $ a \, \geq \, 1, \, b \, \geq \, 1 $ , $f(n)$은 점근적으로 양수 함수값을 가지는 함수
 
 다음과 같은 경우에 대해 시간복잡도 계산이 가능하다!
