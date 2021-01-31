@@ -7,6 +7,7 @@ categories: [ Seminar, ON SOPT Server ]
 tags: [ server ]
 cover: https://imgur.com/Nbwtfez.png
 toc: true
+thumbnail: images/SOPT_Thumbnail.png 
 ---
 
 > ### 1주차 세미나 사전준비
