@@ -6,7 +6,7 @@ categories:
   - Algorithm
   - APSS
 tags:
-  - APSS
+  - 
 ---
 
 당분간 Baekjoon 복습을 하면서, **"알고리즘 문제해결전략"** 이라는 책을 공부할 예정이다!  
