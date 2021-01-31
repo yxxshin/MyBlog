@@ -95,4 +95,4 @@ int main() {
 
 
 [prob]: https://www.acmicpc.net/problem/11657
-[my]: https://yxxshin.github.io/category/algorithm/Bellman-Ford/
+[my]: https://yxxshin.github.io/2020/09/15/2020-09-15-Bellman-Ford/

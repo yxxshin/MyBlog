@@ -26,4 +26,4 @@ tags: [ greedy ]
 
 [prob1]: https://www.acmicpc.net/problem/11047
 [prob2]: https://www.acmicpc.net/problem/1931 
-[my]: https://yxxshin.github.io/category/baekjoon/Baekjoon-1931/ 
+[my]: https://yxxshin.github.io/2020/05/03/2020-05-03-Baekjoon-1931/
