@@ -126,7 +126,7 @@ const { id } = req.decoded;
 
 <br>
 
-> ### 2. REST API
+> ### REST API
 
 #### <u>URI와 URL</u>
 
@@ -209,7 +209,7 @@ Document은 한 객체를 의미하며, Collection은 객체들의 집합
 
 <br>
 
-> ### 3. API 명세서
+> ### API 명세서
 
 **API (Application Programming Interface) 란?**  
 서버 애플리케이션의 기능을 사용하기 위한 방법/수단!  
