@@ -226,9 +226,9 @@ widgets:
         # Author title
         author_title: Student Developer
         # Author's current location
-        location: Seoul National University
+        location: Seoul, Korea
         # URL or path to the avatar image
-        avatar: https://imgur.com/Ue2eCBv.png
+        avatar: https://imgur.com/bfO79Uk.png 
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
