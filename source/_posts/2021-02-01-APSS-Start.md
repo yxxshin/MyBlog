@@ -7,13 +7,15 @@ categories:
   - APSS
 tags:
   - 
+cover: /images/APSS_Cover.jpg
+thumbnail: /images/APSS_Thumbnail.jpg
 ---
 
 당분간 Baekjoon 복습을 하면서, **"알고리즘 문제해결전략"** 이라는 책을 공부할 예정이다!  
 
-![알고리즘 문제해결전략 책](https://imgur.com/n6BRnPh.png)
-
 <!-- more -->
+
+![알고리즘 문제해결전략 책](https://imgur.com/n6BRnPh.png)
 
 **참고**: `APSS`는 본 책을 의미하는 Algorithmic Problem Solving Strategies 의 약자이다.
 
