@@ -36,7 +36,7 @@ new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
-  enable: true # Open external links in new tab
+  enable: false # Open external links in new tab
   field: site # Apply to the whole site
   exclude: ''
 filename_case: 0
@@ -73,7 +73,8 @@ tag_map:
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+### 2021.02.03. Changed to 'false' for SEO Test
+meta_generator: false
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -116,11 +117,19 @@ nofollow:
 feed:
   type: rss2
   path: rss2.xml
-  limit: 20
+  limit: false
+
+# 2021.02.04. Changed for SEO Test
 sitemap:
   path: sitemap.xml
-  tag: false
-  category: false 
+  template: ./sitemap_template.xml
+  rel: false
+  tags: false
+  categories: false
+# sitemap:
+#  path: sitemap.xml
+#  tag: false
+#  category: false 
 robotstxt:
   useragent: '*'
   allow:
