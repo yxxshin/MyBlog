@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Baekjoon 1300 (K번째 수)"
+description: 신연상의 블로그 - AFAIK
 date:   2020-08-18 21:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ binary_search ]

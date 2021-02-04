@@ -1,5 +1,6 @@
 ---
 title: About Me
+description: 신연상의 블로그 - AFAIK
 date: 2021-01-14 04:41:29
 ---
 

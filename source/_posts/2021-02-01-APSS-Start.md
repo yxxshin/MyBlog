@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 알고리즘 문제해결전략 Start
+description: 신연상의 블로그 - AFAIK
 date: '2021-02-01 07:00:00 +0900'
 categories:
   - Algorithm

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Baekjoon 2178 (미로 탐색)"
+description: 신연상의 블로그 - AFAIK
 date:   2020-09-10 15:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ dfs&bfs ]

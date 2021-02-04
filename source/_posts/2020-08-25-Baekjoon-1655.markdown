@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Baekjoon 1655 (가운데를 말해요)"
+description: 신연상의 블로그 - AFAIK
 date:   2020-08-25 21:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ queue ]

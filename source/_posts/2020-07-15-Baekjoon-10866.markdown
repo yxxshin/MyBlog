@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Baekjoon 10866 (덱)"
+description: 신연상의 블로그 - AFAIK
 date:   2020-07-15 15:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ deque ]

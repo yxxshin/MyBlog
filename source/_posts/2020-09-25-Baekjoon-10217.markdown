@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Baekjoon 10217 (KCM Travel)"
+description: 신연상의 블로그 - AFAIK
 date:   2020-09-25 15:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ ssp ]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Baekjoon 2261 (가장 가까운 두 점)"
+description: 신연상의 블로그 - AFAIK
 date:   2020-08-04 18:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ divide&conquer ]

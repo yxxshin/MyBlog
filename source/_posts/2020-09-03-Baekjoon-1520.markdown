@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Baekjoon 1520 (내리막 길)"
+description: 신연상의 블로그 - AFAIK
 date:   2020-09-03 15:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ dp ]

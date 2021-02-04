@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Baekjoon 2667 (단자번호 붙이기)"
+description: 신연상의 블로그 - AFAIK
 date:   2020-09-08 19:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ dfs&bfs ]

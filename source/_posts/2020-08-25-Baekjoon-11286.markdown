@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Baekjoon 11286 (절댓값 힙)"
+description: 신연상의 블로그 - AFAIK
 date:   2020-08-25 17:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ queue ]
