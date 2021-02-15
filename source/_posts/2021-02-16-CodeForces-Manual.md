@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CodeForces Contest Manual
+title: CP, CodeForces 가이드
 description: 신연상의 블로그 - AFAIK
 date: '2021-02-16 15:00:00 +0900'
 categories:
@@ -11,7 +11,7 @@ tags:
 toc: true
 ---
 
-본격적으로 CodeForces Contest에 참여하기 위해, CP만을 위한 꿀팁들을 정리할 한다.
+본 글에서는 CP와 CodeForces에 대한 가이드를 제시한다.
 
 ## CP (Competitive Programming) 이란
 CP보다는 **PS**(Programming Solving) 이라는 단어가 훨씬 익숙할 것이다. 사실 두 개의 단어는 꽤 많이 혼동되고 있고 사람마다 사용하는 의미가 다르다. 
@@ -28,8 +28,6 @@ CP보다는 **PS**(Programming Solving) 이라는 단어가 훨씬 익숙할 것
 
 ## CodeForces 이란
 CodeForces는 정확히는 알고리즘 대회가 열리는 사이트이고, 이 대회를 그냥 CodeForces 대회라고 보통 부른다. [본인 블로그의 이 글](https://yxxshin.github.io/2021/02/05/2021-02-05-APSS-1/)에서도 등장한다! 
-
-우선 이 대회의 매력적인 포인트에 대해 소개하겠다.
 
 ### 레이팅과 Division
 우선 **레이팅**이라는 것이 존재한다. 게임에서의 MMR(Matchmaking Rating)과 유사한 개념이라고 생각하면 편하다. 참여한 대회의 *상대적인 성적에 따라 이 레이팅이 변동*한다. 레이팅 등급에 따라 색깔이 부여되며, 아래의 표와 같다. 백준에서 이름에 색깔이 입혀진 경우를 본 적 있을텐데, 백준에서 CodeForces와 연동을 하여 이 등급 색깔이 백준에 표기되는 것이다.
@@ -69,6 +67,9 @@ Hack을 당하면 CodeForces 사이트에서 알람이 온다.
 만약 Lock을 하지 않았다면 오류를 고쳐 재제출을 해야 할 것이고, Lock을 이미 했다면 어쩔 수 없이 틀린 문제가 된다. 조금 덧붙이자면, Hack을 당하지 않도록 코드를 의도적으로 지저분하게 적는 것은 결국 자신에게 손해이다. 빨리 Hack을 당해야 고쳐서 제출할 수 있기 때문이다. ~~Hack이 될 코드는 어차피 System Test에서 걸러진다는 뜻~~
 
 대회가 모두 끝난 이후, Pretest를 통과한 코드들에 대해 60개 이상의 테스트 코드로 재채점이 이루어진다(**System Test**). 이 System test가 통과해야 비로소 해당하는 점수를 받는다. 
+
+### Virtual Contest
+기존에 시행되었던 대회를 "실제로 시험장에 있었던 것처럼" 참여할 수 있다. 지나간 대회에서 Virtual Participation 을 누르면 된다. 2시간을 똑같이 재고 풀게 되며, 시험장 기준으로 현재 등수도 확인할 수 있다! 개인적으로 CodeForces 사이트에서 가장 마음에 드는 기능이다. 
 
 
 ## CP 용어 정리
