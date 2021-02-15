@@ -6,7 +6,7 @@ date:   2020-09-01 19:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ dp ]
 use_math: true
-cover: /images/Baekjoon_Cover.png
+cover: /images/Baekjoon_Cover.jpg
 thumbnail: /images/Baekjoon_Thumbnail.jpg
 ---
 

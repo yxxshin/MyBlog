@@ -5,7 +5,7 @@ description: 신연상의 블로그 - AFAIK
 date:   2020-09-25 15:30:00 +0900
 categories: [ Algorithm, Baekjoon ]
 tags: [ ssp ]
-cover: /images/Baekjoon_Cover.png
+cover: /images/Baekjoon_Cover.jpg
 thumbnail: /images/Baekjoon_Thumbnail.jpg
 ---
 

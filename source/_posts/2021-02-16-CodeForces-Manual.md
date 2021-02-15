@@ -9,16 +9,16 @@ tags:
   - CP
   - manual
 toc: true
+cover: /images/CodeForces_Cover.jpg
+thumbnail: /images/CodeForces_Thumbnail.png
 ---
 
 본 글에서는 CP와 CodeForces에 대한 가이드를 제시한다.
 
-## CP (Competitive Programming) 이란
-CP보다는 **PS**(Programming Solving) 이라는 단어가 훨씬 익숙할 것이다. 사실 두 개의 단어는 꽤 많이 혼동되고 있고 사람마다 사용하는 의미가 다르다. 
-
 <!-- more -->
 
-흔히 우리가 알고리즘 문제를 푸는 것을 PS라고 하며, CP는 말 그대로 빠르게 코드를 짜야 하는 "경쟁적 코딩" 이다. 개인적으로는 다음과 같이 생각하고 있고, 앞으로 이 블로그에서도 이렇게 사용할 예정이다. 
+## CP (Competitive Programming) 이란
+CP보다는 **PS**(Programming Solving) 이라는 단어가 훨씬 익숙할 것이다. 사실 두 개의 단어는 꽤 많이 혼동되고 있고 사람마다 사용하는 의미가 다르다. 흔히 우리가 알고리즘 문제를 푸는 것을 PS라고 하며, CP는 말 그대로 빠르게 코드를 짜야 하는 "경쟁적 코딩" 이다. 개인적으로는 다음과 같이 생각하고 있고, 앞으로 이 블로그에서도 이렇게 사용할 예정이다. 
 
 - PS는 알고리즘 문제 풀기, CP는 그 중에서 빨리 짜야 하는 경우
 - CP의 예시: 코테 (코딩테스트), CodeForces Contest 등등
