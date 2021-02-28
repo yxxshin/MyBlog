@@ -98,9 +98,14 @@ Option들은 [여기](https://hexo.io/ko/docs/tag-plugins.html#Code-Block) 에�
 {% youtube [PlaylistId] 'playlist' %}
 ```
 
-
 ### Include Posts
 ```
 {% post_link [post title] '[custom text]'%}
 ```
 
+### Spoiler
+```
+{% spoiler "제목 문구" %}
+본문 내용
+{% endspoiler %}
+```
