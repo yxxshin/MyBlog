@@ -29,12 +29,21 @@ date: 2021-01-14 04:41:29
 
 
 **My Careers**
-- `2020.12.26. ~ `
+- `2021.08.17 ~ 2023.02.16`  
+**ROKA** (Republic Of Korea Army)
+
+
+- `2021.04.01 ~ 2021.07.31.`  
+Software Developer Internship from **Desilo**  
+[Homepage Link](https://desilo.ai)
+
+
+- `2020.12.26. ~ 2021.04.01.`
 Server Developer of **Weathy**
 [Github Link](https://github.com/TeamWeathy/WeathyServer)
 
 
-- `2020.12. ~ `
+- `2020.12. ~ 2021.08.`
 Planning Team of **29th Student Council, Dept. of ECE**
 
 
@@ -48,7 +57,7 @@ Server Part of **SOPT 27th**
 [Github Link](https://github.com/ON-SOPT-SERVER-3/Yeonsang)
 
 
-- `2020.06.13. ~ `
+- `2020.06.13. ~ 2021.01.25.`
 Product Manager of **TutorDot**
 [Homepage Link](https://sites.google.com/view/tutordot/%ED%8A%9C%ED%84%B0%EB%8B%B7?authuser=0)
 
