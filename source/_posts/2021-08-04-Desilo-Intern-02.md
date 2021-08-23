@@ -13,7 +13,7 @@ thumbnail: /images/Desilo_Thumbnail.png
 ---
 
 ## 02. Pypalisade Project
-본 프로젝트는 Desilo HE Library + User Scenario Test, WebAPI 작성의 가벼운 task들 이후에 처음으로 맡게 된 개인 단위의 프로젝트였다. C++로 작성된 Duality Technologies의 라이브러리 PALISADE를 Python 환경에서 이용할 수 있도록 Python Wrapper를 만드는 것이 Task이었다.
+본 프로젝트는 Desilo HE Library + User Scenario Test, WebAPI 작성의 가벼운 task들 이후에 처음으로 맡게 된 개인 단위의 프로젝트였다. **C++로 작성된 Duality Technologies의 라이브러리 PALISADE를 Python 환경에서 이용할 수 있도록 Python Wrapper를 만드는 것**이 Task이었다.
 
 <!-- more -->
 
@@ -29,3 +29,6 @@ This involves:
 - understanding the Python packaging process involving distutils - https://docs.python.org/3/library/distutils.html
 
 Objective is to make relatively bug-free Python package that wraps PALISADE that we will publish on Github as desilo/PyPalisade.
+
+### Task의 시작
+Task의 시작은 PALISADE library를 이해하는 것과 
