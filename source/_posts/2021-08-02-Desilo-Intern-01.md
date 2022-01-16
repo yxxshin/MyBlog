@@ -10,7 +10,8 @@ tags:
 toc: true
 cover: /images/Desilo_Cover.png
 thumbnail: /images/Desilo_Thumbnail.png
---- 
+sitemap: false
+​--- 
 
 ## #1. About My First Internship
 얻은 것도 많고, 느낀 점도 많았던 나의 첫 번째 인턴 생활에 대해 정리해보려고 오랜만에 블로그에 글을 올린다. 첫 번째 글에서는 인턴 생활에 대한 정보들과 느낀 점들을 정리하고, 이후 글들에서는 회사에서 진행한 개인 프로젝트들에 대하여 남겨 놓으려고 한다. 
