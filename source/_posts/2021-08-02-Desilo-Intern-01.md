@@ -11,7 +11,6 @@ tags:
 toc: true
 cover: /images/Desilo_Cover.png
 thumbnail: /images/Desilo_Thumbnail.png
-sitemap: false
 noindex: true
 
 ---
