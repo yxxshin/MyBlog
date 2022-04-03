@@ -9,6 +9,8 @@ categories:
 tags:
   - Desilo
 toc: true
+meta:
+  - name="robots";content="noindex, nofollow"
 cover: /images/Desilo_Cover.png
 thumbnail: /images/Desilo_Thumbnail.png
 sitemap: false
