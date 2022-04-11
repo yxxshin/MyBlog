@@ -12,7 +12,7 @@ toc: true
 cover: /images/Desilo_Cover.png
 thumbnail: /images/Desilo_Thumbnail.png
 noindex: true
-
+sitemap: false
 ---
 
 ## 01. About My First Internship
