@@ -9,4 +9,5 @@ toc: true
 cover: cover
 thumbnail: thumbnail
 noindex: false
+sitemap: true
 ---
