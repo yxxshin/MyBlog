@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 'Desilo 인턴 돌아보기 - 01'
+title: '인턴 돌아보기 - 01'
 description: '2021.04.01 ~ 07.31 Desilo 스타트업 인턴 돌아보기 01'
 date: '2021-08-02 15:00:00 +0900'
 categories:
