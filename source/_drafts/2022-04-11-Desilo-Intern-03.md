@@ -38,10 +38,10 @@ Objective is to make relatively bug-free Python package that wraps PALISADE that
 ## Task 보충설명 (21.07 기준)
 Task에 대한 간단한 포인트들만 Q&A 형식으로 남겨두겠다.  
 
-Q1. SEAL과 같은 동형암호 라이브러리들을 잘 사용하고 있는데, 왜 PALISADE에 관심을 가지는가?  
+<u>Q1. SEAL과 같은 동형암호 라이브러리들을 잘 사용하고 있는데, 왜 PALISADE에 관심을 가지는가?</u>  
 A1. PALISADE 라이브러리에서는 SEAL이 지원하지 않는 BinFHE(TFHE)나 Multiparty(Threshold HE) 등의 기능들을 지원한다. 실제로, PALISADE가 가장 실험적인 동형암호 라이브러리라는 평이 많았다.
 
-Q2. Duality Tehcnologies에서 PALISADE의 Python wrapper를 지원하는 것 같던데?  
+<u>Q2. Duality Tehcnologies에서 PALISADE의 Python wrapper를 지원하는 것 같던데?</u>  
 A2. 실제로 Demo 버전이 올라와 있긴 했으나, 몇 가지 문제점들이 있었다. 우선 소수의 기능들만 제공하는, 아이디어 제공용 라이브러리였다. (repo 설명 원문: This repository contains an example python 3 wrapper for PALISADE. It does not expose all functionality of PALISADE, rather it is an example of how to build a specific python application program using a python wrapper, Boost/python bindings and an installed PALISADE library. Check out the README in the repository for more details.)   
 또한 정식 배포 버전이 아니므로 PALISADE의 업데이트에 맞추어 최신화가 될지도 미지수이다. 이는 회사에서 사용하는 목적에서 꽤나 치명적이다. 회사에서 직접 라이브러리를 만들게 되면 에러가 발생하더라도 직접 코드 수정을 하여 고칠 수 있지만, 가져다 쓰는 라이브러리가 에러를 뱉는다면 Duality 측에서 라이브러리를 건드려 직접 에러를 수정해 줄 때까지 우리는 할 수 있는게 없다.
 
@@ -60,17 +60,23 @@ PALISADE의 구조도 어느 정도 파악하였고, pybind11도 완벽하게 �
 위에서도 언급했듯 PALISADE는 구조가 기본적으로 복잡했다.
 ![PALISADE의 class 한 개의 구조](https://imgur.com/XR2t6Se.png)
 
-또한 C++의 최신 문법을 포함한 다양한 문법이 이용되었는데, 이 중 깔끔하게 pybinding 되지 않는 문법들이 꽤나 많았다. 대표적으로는 smart pointers, templates, virtual functions, abstract classes 가 있었다. 이론상 pybinding이 불가능한 것은 아니었다. 
+또한 C++의 최신 문법을 포함한 다양한 문법이 이용되었는데, 이 중 깔끔하게 pybinding 되지 않는 문법들이 꽤나 많았다. 대표적으로는 smart pointers, templates, virtual functions, abstract classes 가 있었다. 이론상 pybinding이 불가능한 것은 아니었다. Custom smart pointer 들은 macro invocation을 이용한 transparent conversion을 이용하여 해결할 수 있다. Template의 경우는 입력 가능한 모든 타입을 하나씩 분해하여 직접 function이던, class이던 하나씩 수동으로 만들어 주면 된다. Virtual function을 포함한 abstract class들은 추가적인 "trampoline class"를 만들고 pybinding 하여 이 abstract class의 역할을 수행할 수 있었다. 
+
+이론상 불가능한 건 없었다. 다만 수동적인 작업들이 많아 시간이 많이 요구되고 귀찮다는 점인데, 그게 **한 두개도 아니고 수백개가 넘는다는 사실**이다. 게다가 대부분의 class가 template 변수를 달고 다닌다는 것을 고려하면? 천 개가 넘을 것이다. 간단한 코드 작성 실험을 통해 한 class의 function을 사용하려면 그 class가 상속하는 모든 subclass들을 모두 pybinding하여 구현해야 한다는 것도 연이어 깨달았다. (어찌보면 당연하다) 옆 동네의 pybinding에 성공한 사례인 SEAL의 경우에는, PALISADE에는 떡칠이 되어 있는 template과 abstract class들이 전혀 없이 작성되어 있었으며 구조도 훨씬 간편했고, 코드들도 짧고 간결했다. 절망적이었다. 
+
+*불가능하진 않지만 사실상 불가능하다.* 이 말이 나를 괴롭히기 시작했다. 설득력이 굉장히 부족했기 때문이다. 다른 사람에게는 '귀찮고 머리 아픈 작업이라 하기 싫어하는 건가?' 하는 냄새를 풍길 수도 있다. 어쩌면 무식하게 하나라도 먼저 시작했으면 인턴 기간 내에 어찌저찌 끝냈을 지도 모른다. (물론 그랬을 거 같진 않다. 최소 1년 반은 필요해 보였다.) 솔직하게는, 내가 성장하려고 하는 인턴인데 이 작업은 나의 성장과는 거리가 너무나 멀어 보이는 단순 노가다여서 꼭 이걸 해야되나.. 하는 심정이었다.  
 
 
-2. 불가능 깨닫기 :: 
-  -> smart pointers
-  -> template
-  -> virtual functions
-  -> abstract classes
-  -> 너어어어무 많은 코드 길이. 이론상 가능하나 나의 인턴 기간 내에 절대 불가능
+## 새로운 IDEA
+리드 개발자님께 어떻게 이 Task가 현실적으로 불가능함을 설명할지 고민을 거듭하던 찰나에, 새로운 IDEA를 떠올렸다. **꼭 직접 pybinding을 해야 할까?** 하는 의문에서 출발하였다. 내 Task는 PALISADE를 pybinding을 하는 것이지만, 결국 궁극적인 목표는 PALISADE을 python 환경에서도 사용할 수 있도록 해주는 것이 아닌가. 아래 사진과 같이 **새로운 라이브러리를 하나 만들어, 직접 PALISADE를 pybinding하는 것이 아닌 내가 만든 라이브러리를 pybinding하면 어떨까 하는 아이디어**를 떠올렸다. 
 
-3. 새로운 IDEA: Personal C++ classes를 사이에 넣으면?
+![NEW IDEA!](../images/tempImages/new_idea.PNG)
+
+나는 어떠한 C++의 구조와 문법들이 pybinding이 어려운지 알고 있으니, 새 라이브러리를 만들 때 이들이 포함되지 않도록 하면 된다. 라이브러리 자체에서 PALISADE를 import하여 사용하므로, 내 라이브러리에는 PALISADE의 말단 클래스 (직접 호출하여 사용하는 클래스) 들만 포함해도 되며 따라서 pybinding 해야 하는 코드 자체가 기하급수적으로 감소한다. 
+
+
+
+
 
 4. 해결!
 
