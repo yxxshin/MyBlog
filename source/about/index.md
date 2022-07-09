@@ -1,92 +1,46 @@
 ---
 title: About Me
 description: 신연상의 블로그 - AFAIK
-date: 2021-01-14 04:41:29
+date: 2022-07-09 04:41:29
 ---
 
-<img src="../images/My_photo.png">
 
-## ⚡️ Yeonsang Shin ⚡️
+<center>
+<font size = "5"><b> Yeonsang Shin </b></font>
+<br>
+<font size = "4">Student Developer, interested in AI/ML </font>
+<br>
+<font size = "3"><a href = "../files/YeonsangShin_CV_220622.pdf">My Resume</a></font> 
+</center>
 
-**Born**
-&nbsp; &nbsp; &nbsp; &nbsp; 2000.02.09.
+<br>
 
+### **Location** 
+- Seoul, South Korea
 
-**Univ** 
-&nbsp; &nbsp; &nbsp; &nbsp; Seoul National University,
-&nbsp; &nbsp; &nbsp; &nbsp; Dept. of Electrical and Computer Engineering
+<br>
 
+### **Education**
+- [**Seoul National University**](https://en.snu.ac.kr/), Bachelor of Electrical and Computer Engineering  
+`Mar 2019 ~ Present`
+<br>
+- [**Seoul Science High School**](http://en.sshs.hs.kr)
+`Mar 2016 ~ Feb 2019`
 
-**Location** 
-&nbsp; &nbsp; &nbsp; &nbsp; Seoul, South Korea
+<br>
 
+### **Experiences**
+- Microwave Systems Operator-Maintainer at *Republic of Korea Defense Communication Command*  (**Military Service**)   
+`Aug 2021 ~ Feb 2023`  
+<br>
+- **Software Developer Intern** at [*Desilo*](https://desilo.ai)  
+`Apr 2021 ~ Jul 2021` 
+<br>
+- Scholarship student of **Presidential Science Scholarship (대통령과학장학금)**  
+`Jan 2019 ~ Present`
 
-**Email**
-&nbsp; &nbsp; &nbsp; &nbsp; samshin3910@gmail.com
-&nbsp; &nbsp; &nbsp; &nbsp; samshin3910@snu.ac.kr
+<br>
 
-
-**My Skills**
-- 
-
-
-**My Careers**
-- `2021.08.23 ~ 2023.02.22`  
-Microwave Systems Operator-Maintainer (Soldier) at *ROKDCC* (Republic of Korea Defense Communication Command)
-
-
-- `2021.04.01 ~ 2021.07.31.`  
-Software Developer Internship from **Desilo**  
-[Homepage Link](https://desilo.ai)
-
-
-- `2020.12.26. ~ 2021.04.01.`
-Server Developer of *Weathy* (Personal project)  
-[Github Link](https://github.com/TeamWeathy/WeathyServer)
-
-
-- `2020.12. ~ 2021.08.`
-Planning Team of *29th Student Council, Dept. of ECE*
-
-
-- `2020.11.21. ~ 11.22.`
-Server Developer of *Pause* (One Day Hackathon Project)  
-[Github Link](https://github.com/SOPT27-PAUSE/PAUSE_server)
-
-
-- `2020.09.26. ~ 2021.01.30.`
-Server Part of *SOPT 27th*  
-[Github Link](https://github.com/ON-SOPT-SERVER-3/Yeonsang)
-
-
-- `2020.06.13. ~ 2021.01.25.`
-Product Manager of *TutorDot* (Personal project)   
-[Homepage Link](https://sites.google.com/view/tutordot/%ED%8A%9C%ED%84%B0%EB%8B%B7?authuser=0)
-
-
-- `2020.04.18. ~ 2020.08.01.`
-Plan Part of *SOPT 26th*
-
-
-- `2020.02. ~ 2020.11.`
-Welfare Team of *33th Student Council, College of Engineering*
-
-
-- `2020.02. ~ 2020.11.`
-Planning Team of *28th Student Council, Dept. of ECE*
-
-
-- `2019.04. ~ `
-Scholarship student of **Presidential Scholarship(대통령과학장학금)**
-
-
-- `2019.03. ~ 2019.11.`
-Design Team of *32th Student Council, College of Engineering*
-
-
-- `2019.03. ~ `
-Student of **Seoul National Univ, Dept. of ECE**
-
-
-- `2016.03. ~ 2019.02.`
-Student of **Seoul Science High School, 28th**
+### **Email**
+- samshin3910 [at] gmail [dot] com
+- samshin3910 [at] snu [dot] ac [dot] kr
