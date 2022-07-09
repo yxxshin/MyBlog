@@ -1,5 +1,5 @@
 ---
-layout: draft
+layout: post
 title: 'Desilo 인턴 돌아보기 - 03'
 description: '2021.04.01 ~ 07.31 Desilo 스타트업 인턴 돌아보기 03'
 date: '2022-04-11 15:00:00 +0900'
@@ -10,8 +10,8 @@ tags:
 toc: true
 cover: /images/Desilo_Cover.png
 thumbnail: /images/Desilo_Thumbnail.png
-sitemap: false
 noindex: true
+sitemap: false
 ---
 
 ## 03. 첫 프로젝트
