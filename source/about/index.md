@@ -4,21 +4,15 @@ description: 신연상의 블로그 - AFAIK
 date: 2022-07-09 04:41:29
 ---
 
-
-<center>
-<font size = "5"><b> Yeonsang Shin </b></font>
+<div style = "text-align: center">
+<span style = "font-size:2em"><b> Yeonsang Shin </b></span>
 <br>
-<font size = "4">Student Developer, interested in AI/ML </font>
+<span style = "font-size:1em">Student Developer, interested in AI/ML </span>
 <br>
-<font size = "3"><a href = "../files/YeonsangShin_CV_220622.pdf">My Resume</a></font> 
-</center>
-
+<span style = "font-size:1em ; opacity:0.5">at Seoul, South Korea </span>
 <br>
-
-### **Location** 
-- Seoul, South Korea
-
-<br>
+<span style = "font-size:1.3em"><a href = "../files/YeonsangShin_CV_220622.pdf">My Resume</a></span>
+</div>
 
 ### **Education**
 - [**Seoul National University**](https://en.snu.ac.kr/), Bachelor of Electrical and Computer Engineering  
