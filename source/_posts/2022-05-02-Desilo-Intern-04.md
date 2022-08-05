@@ -46,4 +46,4 @@ sitemap: false
 
 
 프로젝트에 대해 더 자세히 알고 싶다면 아래 발표 파일을 참고할 것!  
-[참고: 발표 파일](../files/Desilo_Yeonsang_Projects.pdf)
+[참고: 발표 파일](../../../../files/Desilo_Yeonsang_Projects.pdf)
