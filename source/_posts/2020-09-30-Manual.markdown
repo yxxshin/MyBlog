@@ -67,9 +67,16 @@ URL을 만들었다면, 다음과 같은 방식으로 사진을 넣어줄 수 �
 ```html
 <img src="URL.jpg" width="가로길이" height="세로길이">
 ```
-만약 중앙정렬을 해주고 싶다면, 앞 뒤로 `<center>`와 `</center>`를 붙여주면 됩니다.
+~~만약 중앙정렬을 해주고 싶다면, 앞 뒤로 `<center>`와 `</center>`를 붙여주면 됩니다.~~
 ```html
 <center><img src="URL.jpg" width="가로길이" height="세로길이"></center>
+```
+
+** 2022.08.06 추가:**  
+현재 `<center>` tag를 HTML에서 지원을 중단하여, 실제로 deploy 한 블로그에서 중앙정렬이 되지 않는다. `<img>` 부분을 앞뒤로 `<p align="style">` 의 형태로 감싸는 방법도 지원되지 않는다. 새로운 방법은 다음과 같다. 
+
+```html
+<img src='Image 주소' alt='캡션' style="display: block; margin: 0 auto"> </img>
 ```
 
 ### 표 넣기
