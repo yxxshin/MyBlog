@@ -5,7 +5,7 @@ description: 신연상의 블로그 - AFAIK
 date: '2021-02-01 07:00:00 +0900'
 categories:
   - Algorithm
-  - APSS
+  - APSS / CodeForces
 tags:
   - 
 cover: /images/APSS_Cover.jpg
