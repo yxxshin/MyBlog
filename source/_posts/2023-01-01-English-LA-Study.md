@@ -92,3 +92,25 @@ So, I just decided to stay home.
 </details>
 
 ---
+
+05.
+<details>
+<summary>
+오늘 일 끝나고 뭐 해? 보통은 그냥 집에 가요. 친구랑 한 두시간 정도 만날 때도 있어요. 근데 보통은 일 끝나고 너무 피곤해서 그냥 집에 가서 일찍 자요.
+</summary>
+<div markdown="1">
+
+What do you do after work?
+<br>
+Usually, I just go home. 
+<br>
+Sometimes, I hang out with a friend for a few hours. 
+<br>
+But normally, I'm really tired after work.
+<br>
+So, I go home and try to go to bed early.
+
+</div>
+</details>
+
+---
