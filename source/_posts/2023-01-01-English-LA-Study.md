@@ -114,3 +114,23 @@ So, I go home and try to go to bed early.
 </details>
 
 ---
+
+06.
+<details>
+<summary>
+그녀의 기분을 풀어주려고 했던 거였어. 근데 말이 잘못 나왔어. 정말 모르고 한 실수였어. 그녀를 마음 상하게 하려던 게 아니였어.
+</summary>
+<div markdown="1">
+
+I was (just) trying to cheer her up.
+<br>
+But the(my) words came out wrong.
+<br>
+It was an honest mistake.
+<br>
+I didn't mean to hurt her feelings.
+
+</div>
+</details>
+
+---
