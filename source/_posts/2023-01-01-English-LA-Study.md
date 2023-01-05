@@ -134,3 +134,43 @@ I didn't mean to hurt her feelings.
 </details>
 
 ---
+
+07.
+<details>
+<summary>
+지난 몇 달 동안 밤에 일하고 낮에는 자려고 노력 중인데 그렇게 쉽지 않아요.
+</summary>
+<div markdown="1">
+For the past couple of months, I've been trying to work at night and sleep during the day. It hasn't been very easy.
+</div>
+</details>
+
+---
+
+08.
+<details>
+<summary>
+지난 몇 주 동안 커피를 비롯한 다른 카페인 음료를 줄이려고 노력 중인데 정말 쉽지 않아요.
+</summary>
+<div markdown="1">
+I've been trying to cut back on coffee and other caffeinated drinks for the past couple of weeks. It really hasn't been easy.
+</div>
+</details>
+
+---
+
+09.
+<details>
+<summary>
+내년 초에 이사를 할 계획이에요. 지난 몇 주 동안 이사 갈 곳을 찾고 있는데 한정된 가격대 내에서 괜찮은 곳을 찾기가 정말 힘들어요. 당연한 일이지만.
+</summary>
+<div markdown="1">
+I'm planning to move early next year. I've been looking for a new place for the past couple of weeks. It's really difficult to find a decent place within a limited price range. Obviously.
+</div>
+</details>
+
+---
+
+[WIP] iPad 메모
+- cut back on : ~를 줄이다 (주로 음식에, 그 중에서도 주로 '원료'에 사용. 완성된 음식 X e.g. salt, carbs, sugar, ... )
+- decent place : 괜찮은 곳. (<-> 좋은 곳 어감 차이!)
