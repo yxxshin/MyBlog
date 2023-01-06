@@ -171,6 +171,18 @@ I'm planning to move early next year. I've been looking for a new place for the 
 
 ---
 
-[WIP] iPad 메모
-- cut back on : ~를 줄이다 (주로 음식에, 그 중에서도 주로 '원료'에 사용. 완성된 음식 X e.g. salt, carbs, sugar, ... )
-- decent place : 괜찮은 곳. (<-> 좋은 곳 어감 차이!)
+10.
+<details>
+<summary>
+오늘 밤에 무슨 계획 있어요? 몇 시에 퇴근하는지 봐서요. 제시간에 퇴근할 수 있으면 친구들 만나서 간단하게 술 한잔 할 수도 있는데 안그러면 아마 너무 피곤해서 곧장 집으로 갈거 같아요
+</summary>
+<div markdown="1">
+Do you have any plans tonight?
+<br>
+Well, it depends on what time I get off work.
+<br>
+If I can leave on time, I might meet up with some friends for a beer.
+<br>
+Otherwise, I'll probably be too tired and go straight back home.
+</div>
+</details>
