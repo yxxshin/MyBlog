@@ -186,3 +186,48 @@ If I can leave on time, I might meet up with some friends for a beer.
 Otherwise, I'll probably be too tired and go straight back home.
 </div>
 </details>
+
+---
+
+11.
+<details>
+<summary>
+벌써 10월인게 믿기지 않아. 새해 계획을 세우고 있었던게 어제 같아.
+</summary>
+<div markdown="1">
+I can't believe it's already October.
+<br>
+It feels like (it was) only yesterday that I was making my new year plans.
+</div>
+</details>
+
+---
+
+12.
+<details>
+<summary>
+내가 벌써 37살 이라니 ... 30살 됐다고 멘붕이었던게 어제 같은데 ...
+</summary>
+<div markdown="1">
+I can't believe I'm already 37 years old.
+<br>
+It feels like only yesterday that I was freaking out about turning 30.
+</div>
+</details>
+
+---
+ 
+13.
+<details>
+<summary>
+내가 이걸 벌써 2년 넘게 하고 있다니... 채널 이름을 생각해내려고 하고 있던게 어제 같은데 ...
+</summary>
+<div markdown="1">
+I can't believe I've been doing this for over 2 years.
+<br>
+It feels like only yesterday that I was trying to come up with a name for my channel.
+</div>
+</details>
+
+---
+
