@@ -231,3 +231,18 @@ It feels like only yesterday that I was trying to come up with a name for my cha
 
 ---
 
+14.
+<details>
+<summary>
+예전처럼 집에서 김치 만드는 사람들이 많지는 않아요. 제가 아는 사람들은 대부분이 요즘은 그냥 사먹어요. 앞으로 몇 년 후면 사람들이 집에서 김치는 만드는 것을 보기가 어려울 것 같아요.
+</summary>
+<div markdown="1">
+Not many people make Kimchi at home anymore.
+<br>
+Most people that I know, nowadays, just buy Kimchi.
+<br>
+I think, just several years from now, it's going to be very rare to see people making Kimchi at home.
+</div>
+</details>
+
+---
