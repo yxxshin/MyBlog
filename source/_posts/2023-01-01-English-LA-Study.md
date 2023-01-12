@@ -246,3 +246,19 @@ I think, just several years from now, it's going to be very rare to see people m
 </details>
 
 ---
+
+15.
+<details>
+<summary>
+한 달 전 쯤에 운전면허증을 땄어요. 기회가 있을 때마다 연습을 하고 있어요. 아직 아주 잘은 못하지만 서서히 감을 잡고 있어요.
+</summary>
+<div markdown="1">
+I got my driver's license about a month ago.
+<br>
+I've been practicing every chance I get.
+<br>
+I'm still not very good but I'm slowly getting the hang of it.
+</div>
+</details>
+
+---
