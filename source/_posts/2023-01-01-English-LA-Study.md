@@ -276,7 +276,7 @@ I'm still not very good but I'm slowly getting the hang of it.
 16.
 <details>
 <summary>
-친구들은 있는데 서로 자주 보지는 못해요. 일단, 다들 직업이 있어서 항상 일에 얽매여 있어요. 게다가, (우리 중) 대부분이 이제 결혼을 했고 아이가 있는 사람도 많아요. 몇몇은 해외에서 일을 하고 있고 심지어 다른 나라로 이민을 간 사람도 있어요. 그래서, 뭐, 시간이 지나면서 연락하면서 지내는게 더 어려워지고 있어요.
+친구들은 있는데 서로 자주 보지는 못해요. 일단, 다들 직업이 있어서 항상 일에 얽매여 있어요. 게다가, (우리 중) 대부분이 이제 결혼을 했고 아이가 있는 사람도 많아요. 몇몇은 해외에서 일을 하고 있고 심지어 다른 나라로 이민을 간 사   람도 있어요. 그래서, 뭐, 시간이 지나면서 연락하면서 지내는게 더 어려워지고 있어요.
 </summary>
 <div markdown="1">
 I have friends but we don't get to see each other very often.
@@ -291,4 +291,5 @@ So, you know, it's getting harder to keep in touch as time goes by.
 </div>
 </details>
 
---
+---
+
