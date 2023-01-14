@@ -141,7 +141,9 @@ I didn't mean to hurt her feelings.
 지난 몇 달 동안 밤에 일하고 낮에는 자려고 노력 중인데 그렇게 쉽지 않아요.
 </summary>
 <div markdown="1">
-For the past couple of months, I've been trying to work at night and sleep during the day. It hasn't been very easy.
+For the past couple of months, I've been trying to work at night and sleep during the day. 
+<br>
+It hasn't been very easy.
 </div>
 </details>
 
@@ -153,7 +155,9 @@ For the past couple of months, I've been trying to work at night and sleep durin
 지난 몇 주 동안 커피를 비롯한 다른 카페인 음료를 줄이려고 노력 중인데 정말 쉽지 않아요.
 </summary>
 <div markdown="1">
-I've been trying to cut back on coffee and other caffeinated drinks for the past couple of weeks. It really hasn't been easy.
+I've been trying to cut back on coffee and other caffeinated drinks for the past couple of weeks. 
+<br>
+It really hasn't been easy.
 </div>
 </details>
 
@@ -165,7 +169,13 @@ I've been trying to cut back on coffee and other caffeinated drinks for the past
 내년 초에 이사를 할 계획이에요. 지난 몇 주 동안 이사 갈 곳을 찾고 있는데 한정된 가격대 내에서 괜찮은 곳을 찾기가 정말 힘들어요. 당연한 일이지만.
 </summary>
 <div markdown="1">
-I'm planning to move early next year. I've been looking for a new place for the past couple of weeks. It's really difficult to find a decent place within a limited price range. Obviously.
+I'm planning to move early next year. 
+<br>
+I've been looking for a new place for the past couple of weeks. 
+<br>
+It's really difficult to find a decent place within a limited price range.
+<br>
+Obviously.
 </div>
 </details>
 
@@ -262,3 +272,23 @@ I'm still not very good but I'm slowly getting the hang of it.
 </details>
 
 ---
+
+16.
+<details>
+<summary>
+친구들은 있는데 서로 자주 보지는 못해요. 일단, 다들 직업이 있어서 항상 일에 얽매여 있어요. 게다가, (우리 중) 대부분이 이제 결혼을 했고 아이가 있는 사람도 많아요. 몇몇은 해외에서 일을 하고 있고 심지어 다른 나라로 이민을 간 사람도 있어요. 그래서, 뭐, 시간이 지나면서 연락하면서 지내는게 더 어려워지고 있어요.
+</summary>
+<div markdown="1">
+I have friends but we don't get to see each other very often.
+<br>
+First of all, we all have jobs so we're always tied up at work.
+<br>
+Plus, must of us are married now and many of us have kids.
+<br>
+Some are working overseas and a few have even moved to other countries.
+<br>
+So, you know, it's getting harder to keep in touch as time goes by.
+</div>
+</details>
+
+--
