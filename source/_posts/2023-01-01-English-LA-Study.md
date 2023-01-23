@@ -283,7 +283,7 @@ I have friends but we don't get to see each other very often.
 <br>
 First of all, we all have jobs so we're always tied up at work.
 <br>
-Plus, must of us are married now and many of us have kids.
+Plus, most of us are married now and many of us have kids.
 <br>
 Some are working overseas and a few have even moved to other countries.
 <br>
