@@ -293,3 +293,35 @@ So, you know, it's getting harder to keep in touch as time goes by.
 
 ---
 
+17.
+<details>
+<summary>
+간략하게 얘기를 하자면, 컴퓨터에 문제가 생겨서 며칠치의 일을 날렸어. 그래서 이제 처음부터 다시 시작해야 돼. 진작에 이런 생각을 했어야 했는데 지금부터는 모든 일을 클라우드를 기반으로 하는 프로 그램만 사용할거야.
+</summary>
+<div markdown="1">
+Long story short, I had a problem with my computer and I lost several days worth of work.
+<br>
+So now, I have to start all over again.
+<br>
+I should have thought of this earlier, but from now on, I'm going to do all my work (only) on cloud-based programs.
+</div>
+</details>
+
+---
+
+
+[WIP for iPad]
+- Long story short : 간략하게 얘기를 하자면~
+- (  ) worth of [ ] : (  ) 값어치의 [  ] 
+Long story short, I had a problem with my computer and I lost several days worth of work.
+
+- start (do ... ) all over again : 처음부터 다 해야 해.
+So now, I have to start all over again.
+
+- should have thought of this earlier : 진작에 이런 생각을 했어야 했는데,
+I should have thought of this earlier.
+
+cf) should have done this earlier : 진작에 이렇게 할걸,
+
+- from now on : 지금부터는
+From now on, I'm going to do all my work on cloud-based programs.
