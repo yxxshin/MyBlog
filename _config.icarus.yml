@@ -237,15 +237,15 @@ widgets:
         follow_link: 'https://github.com/yxxshin'
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://www.facebook.com/shinyeonsang'
+            LinkedIn:
+                icon: fab fa-linkedin
+                url: 'https://www.linkedin.com/in/yeonsangshin/'
             Github:
                 icon: fab fa-github
                 url: 'https://github.com/yxxshin'
             Instagram:
                 icon: fab fa-instagram
-                url: 'https://www.instagram.com/yxxshin0209/'
+                url: 'https://www.instagram.com/quiltedbyshin/'
             
     # Table of contents widget configurations
     -
